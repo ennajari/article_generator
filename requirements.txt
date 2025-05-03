@@ -1,0 +1,7 @@
+crewai
+chromadb
+sentence-transformers
+langchain
+PyPDF2
+openai
+python-dotenv
