@@ -1,0 +1,21 @@
+{
+  "total_articles": 6,
+  "total_feedback": 1,
+  "average_rating": 4.0,
+  "top_queries": {
+    "artificielle": 4,
+    "intelligence": 3,
+    "abdellah": 1,
+    "ennajari": 1,
+    "tendances": 1,
+    "l'intelligence": 1,
+    "2025": 1,
+    "bonjour": 1,
+    "suis": 1,
+    "l'assistant": 1
+  },
+  "improvement_categories": {
+    "style": 1
+  },
+  "timestamp": "2025-05-12T22:49:51.375481"
+}
