@@ -120,11 +120,7 @@ class ArticleCrew:
                 else:
                     improvement_counts["other"] += 1
         
-        # Using this information to adjust agent behavior
-        # For example, if structure is a common issue, we could modify the outliner's prompts
         if improvement_counts["structure"] > improvement_counts["accuracy"] and improvement_counts["structure"] > improvement_counts["style"]:
             # Adjust outliner to focus more on better structure
             self.outliner.prioritize_structure = True  # This would be a real attribute you'd implement
-        
-        # Similarly for other improvement areas
-        # This is where you'd implement your learning mechanism
+    
