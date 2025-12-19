@@ -1,4 +1,4 @@
-# 🚀 Article Generator - Modern Full Stack AI Application
+#  Article Generator - Modern Full Stack AI Application
 
 Application moderne de génération d'articles basée sur l'IA avec architecture full-stack (React + Node.js + Python).
 
@@ -271,4 +271,5 @@ article_generator/
 - **API REST**: Exposition des fonctionnalités via API
 - **Feedback avancé**: Annotations in-line et suggestions spécifiques
 - **Apprentissage automatique**: Modèles prédictifs pour la qualité des articles
+
 - **Personnalisation utilisateur**: Profils et préférences personnalisés
