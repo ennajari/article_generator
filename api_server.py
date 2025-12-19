@@ -202,7 +202,7 @@ async def extract_from_image(
         raise HTTPException(status_code=500, detail=f"Failed to extract image content: {str(e)}")
 
 if __name__ == "__main__":
-    print("Starting Article Generator API on http://localhost:8000")
+    print("Starting Article Generator API on http://localhost:8001")
     print(" Data Flywheel enabled for continuous learning")
     print(" Image content extraction enabled (Gemini Vision)")
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8001)
