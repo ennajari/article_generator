@@ -1,0 +1,49 @@
+SCIENCES ET RECHERCHE
+
+Physique et Astronomie :
+- Mécanique quantique : superposition, intrication quantique
+- Relativité : générale, restreinte, espace-temps
+- Physique des particules : modèle standard, boson de Higgs
+- Cosmologie : Big Bang, matière noire, énergie sombre
+- Exoplanètes, trous noirs, ondes gravitationnelles
+- Fusion nucléaire, projet ITER
+
+Chimie et Matériaux :
+- Chimie organique, inorganique, analytique
+- Nanomatériaux : graphène, nanotubes de carbone
+- Polymères, composites, matériaux intelligents
+- Catalyse, chimie verte, économie circulaire
+- Batteries lithium-ion, supercondensateurs
+- Chimie computationnelle, modélisation moléculaire
+
+Biologie et Biotechnologies :
+- Génétique : ADN, ARN, épigénétique
+- CRISPR-Cas9 : édition génomique, thérapie génique
+- Biologie synthétique, bio-informatique
+- Cellules souches, médecine régénérative
+- Microbiome, probiotiques, antibiorésistance
+- Biologie évolutive, sélection naturelle
+
+Mathématiques et Statistiques :
+- Algèbre, analyse, géométrie, topologie
+- Théorie des probabilités, statistiques inférentielles
+- Big Data, data science, apprentissage automatique
+- Modélisation mathématique, simulations
+- Cryptographie, théorie des nombres
+- Optimisation, recherche opérationnelle
+
+Sciences de la Terre et Environnement :
+- Géologie : tectonique des plaques, volcanologie, séismologie
+- Climatologie : réchauffement climatique, effet de serre
+- Océanographie, écosystèmes marins
+- Météorologie, prévisions climatiques
+- Énergies renouvelables : solaire, éolien, hydraulique
+- Biodiversité, conservation, développement durable
+
+Neurosciences :
+- Neuroplasticité, synapses, neurotransmetteurs
+- Mémoire, apprentissage, cognition
+- Conscience, libre arbitre
+- Interface cerveau-machine (BCI)
+- Maladies neurodégénératives : Alzheimer, Parkinson
+- Neuroimagerie : IRM, PET scan, EEG

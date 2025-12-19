@@ -1,0 +1,38 @@
+BUSINESS ET ENTREPRENEURIAT
+
+Stratégie d'Entreprise :
+- Analyse SWOT : forces, faiblesses, opportunités, menaces
+- Modèle Canvas : proposition de valeur, segments clients, canaux de distribution
+- Océan Bleu vs Océan Rouge : innovation vs compétition
+- Avantage compétitif : différenciation, leadership par les coûts
+
+Marketing Digital :
+- SEO (référencement naturel), SEA (publicité payante)
+- Content Marketing : blogs, vidéos, podcasts, infographies
+- Social Media Marketing : Facebook, Instagram, LinkedIn, TikTok
+- Email Marketing : newsletters, automation, segmentation
+- Marketing d'Influence : collaborations, ambassadeurs de marque
+
+E-commerce :
+- Plateformes : Shopify, WooCommerce, Magento
+- Modèles : B2C, B2B, C2C, Dropshipping
+- Paiement en ligne, logistique, service client
+- Conversion Rate Optimization (CRO)
+
+Finance et Investissement :
+- Actions, obligations, fonds indiciels (ETF)
+- Analyse fondamentale vs technique
+- Diversification de portefeuille
+- Venture Capital, Private Equity, Business Angels
+
+Gestion de Projet :
+- Méthodologies : Agile, Scrum, Kanban, Waterfall
+- Outils : Jira, Trello, Asana, Monday.com
+- KPIs, OKRs, gestion des risques
+- Leadership et management d'équipe
+
+Ressources Humaines :
+- Recrutement : sourcing, entretiens, onboarding
+- Développement des compétences : formation, coaching
+- Engagement employé, culture d'entreprise
+- Télétravail, flexibilité, bien-être au travail

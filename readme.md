@@ -1,45 +1,68 @@
+# 🚀 Article Generator - Modern Full Stack AI Application
+
+Application moderne de génération d'articles basée sur l'IA avec architecture full-stack (React + Node.js + Python).
+
+---
+
 # Architecture Détaillée du Générateur d'Articles avec Data Flywheel
 
 ## Structure du Projet
 
 ```
-C:\Users\Abdel\Downloads\article_generator\
+article_generator/
 ├── .env                    # Variables d'environnement (clés API)
-├── main.py                 # Point d'entrée et gestionnaire d'arguments CLI
-├── ui.py                   # Interface utilisateur Streamlit
+├── .gitignore              # Fichiers à ignorer par Git
+├── api_server.py           # API FastAPI pour la génération d'articles (Python)
 ├── readme.md               # Documentation du projet
-├── requirements.txt        # Dépendances du projet
+├── requirements.txt        # Dépendances Python
 │
-├── agents/                 # Agents spécialisés dans la chaîne de création d'articles
-│   ├── __init__.py         # Initialisation du module
-│   ├── agents.py           # Définition des agents spécifiques et leurs responsabilités
+├── backend/                # Backend Node.js/Express
+│   ├── server.js           # Serveur Express principal
+│   ├── db.js               # Base de données JSON
+│   ├── .env                # Variables d'environnement backend
+│   ├── package.json        # Dépendances Node.js
+│   ├── models/             # Modèles de données
+│   ├── routes/             # Routes API (auth, articles, users)
+│   └── middleware/         # Middleware (auth, etc.)
 │
-├── crew/                   # Orchestration et gestion des agents
-│   ├── __init__.py         # Initialisation du module
-│   ├── crew.py             # Classe ArticleCrew pour coordonner le processus de génération
+├── frontend/               # Frontend React + Vite
+│   ├── index.html          # Point d'entrée HTML
+│   ├── package.json        # Dépendances React
+│   ├── vite.config.js      # Configuration Vite
+│   ├── tailwind.config.js  # Configuration Tailwind CSS
+│   └── src/
+│       ├── main.jsx        # Point d'entrée React
+│       ├── App.jsx         # Composant principal
+│       ├── components/     # Composants React
+│       ├── pages/          # Pages de l'application
+│       └── store/          # Gestion d'état (Zustand)
 │
-├── data/                   # Stockage des données
-│   ├── documents/          # Documents sources pour la recherche contextuelle
-│   │   └── exemple.txt     # Exemple de document
-│   ├── flywheel/           # Stockage des données du flywheel
-│   │   ├── articles/       # Articles générés (format JSON)
-│   │   ├── feedback/       # Feedbacks utilisateurs (format JSON)
-│   │   └── analytics/      # Rapports d'analyse (format JSON)
+├── agents/                 # Agents IA spécialisés (CrewAI)
+│   ├── __init__.py
+│   └── agents.py           # Définition des agents (Researcher, Writer, Editor)
 │
-├── flywheel/               # Module pour le Data Flywheel
-│   ├── __init__.py         # Initialisation du module
-│   ├── data_flywheel.py    # Implémentation du mécanisme de Data Flywheel
+├── crew/                   # Orchestration des agents
+│   ├── __init__.py
+│   └── crew.py             # Classe ArticleCrew pour coordonner la génération
 │
-├── llm/                    # Intégration avec les modèles de langage (LLMs)
-│   ├── __init__.py         # Initialisation du module
-│   ├── gemini.py           # Interface avec l'API Google Gemini
+├── data/                   # Données de l'application
+│   ├── documents/          # Documents sources pour le RAG
+│   │   └── exemple.txt
+│   ├── flywheel/           # Data Flywheel pour apprentissage continu
+│   │   ├── articles/       # Articles générés avec métadonnées
+│   │   ├── feedback/       # Feedbacks utilisateurs
+│   │   └── analytics/      # Analyses et statistiques
+│   ├── articles.json       # Base de données des articles (Node.js)
+│   └── users.json          # Base de données des utilisateurs (Node.js)
 │
-├── tools/                  # Outils utilitaires
-│   ├── __init__.py         # Initialisation du module
-│   ├── embedder.py         # Génération d'embeddings pour les documents
-│   ├── gemini.py           # Fonctions d'aide pour l'API Gemini
-│   ├── loader.py           # Chargement de documents (texte, PDF)
-│   ├── vectorstore.py      # Stockage vectoriel pour la recherche sémantique
+├── flywheel/               # Module Data Flywheel
+│   ├── __init__.py
+│   └── data_flywheel.py    # Système d'apprentissage continu
+│
+└── tools/                  # Outils utilitaires
+    ├── __init__.py
+    ├── gemini.py           # Interface API Gemini
+    └── vectorstore.py      # Stockage vectoriel (RAG avec Chroma)
 ```
 
 ## Composants Principaux et Flux de Données

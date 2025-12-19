@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn/
+
+# Environment variables
+.env
+.env.local
+.env.production
+backend/.env
+frontend/.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+frontend/dist/
+frontend/build/
+backend/dist/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+data/auth.db
+
+# Data files (keep generated articles/feedback for Data Flywheel learning)
+# Uncomment the lines below if you don't want to track generated data
+# data/flywheel/articles/*.json
+# data/flywheel/feedback/*.json
+# data/flywheel/analytics/*.json
+data/articles.json
+data/users.json
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Testing
+.pytest_cache/
+
+# Old files
+*.iml
+*.class
+*.jar
+*.war
+*.pem
+*.key
+*.crt
+*.p12
+*.der
+*.log.*
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+.vagrant/
+*.xcworkspace
+*.xcuserstate
+*.mode1v3
+*.pbxuser
+*.perspectivev3
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM/
+*.xcuserdatad
+*.xcscmblueprint
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
